@@ -29,3 +29,37 @@ h2 {
     letter-spacing: 0.5px;
     margin-bottom: 1.3em;
 }
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.8em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+    color: rgb(40, 37, 37);
+}
+
+input {
+    position: relative;
+    font-size: 1.1em;
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    border: 1.5px solid #43405c;
+    color: #43405c;
+    outline: none;
+}
+
+input:focus {
+    border-color: #5159a4;
+}
+
+#error-msg {
+    text-align: center;
+    margin-top: 1.25em;
+    color: #ff4362;
+}
