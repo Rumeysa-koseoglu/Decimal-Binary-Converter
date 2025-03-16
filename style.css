@@ -75,3 +75,22 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+/* mobile responsiveness */
+
+@media (max-width:480px) {
+    h2 {
+        font-size: 1.3em;
+        font-weight: 400;
+    }
+
+    input {
+        font-size: 0.5em;
+        padding: 0.7em;
+    }
+
+    label {
+        font-size: 0.8em;
+        font-weight: 400;
+    }
+}
